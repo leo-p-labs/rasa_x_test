@@ -1,35 +1,27 @@
-actions:
-- utter_bot_is_always_fine
-- utter_cheer_up
-- utter_did_that_help
-- utter_goodbye
-- utter_greet
-- utter_happy
-- utter_iamabot
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
 - greet
-- bot_challenge
+- give_id
+- give_birth_date
+- asking_for_rdv
+- confirm_rdv
 - goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
 responses:
-  utter_bot_is_always_fine:
-  - text: i'm always fine bruh
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
   utter_goodbye:
-  - text: Bye
+  - text: merci à vous aussi!
   utter_greet:
-  - text: Hey! How are you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-session_config:
-  carry_over_slots_to_new_session: true
-  session_expiration_time: 60
+  - text: Bonjour !
+  utter_ask_id:
+  - text: J'aurai besoin de votre nom et prénom s'il vous plait
+  utter_ask_birth_date:
+  - text: ok, maintenant il me faut votre date de naissance
+  - text: j'aurais aussi besoin de votre date de naissance svp
+actions:
+- utter_greet
+- utter_ask_id
+- utter_ask_birth_date
+- utter_propose_rdv_date
+- utter_confirm_rdv
+- utter_goodbye

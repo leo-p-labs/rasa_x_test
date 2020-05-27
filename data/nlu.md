@@ -1,57 +1,20 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+- salut
+- bonsoir
+- bonjour
+
+## intent:give_id
+- Leo
+- Pacheco
+
+## intent:give_birth_date
+- 31 octobre 1996
 
 ## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+- merci au revoir
+- bonne soirée 
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-- i'm fine and you?
+## intent:asking_for_rdv
+- auriez vous un rendez-vous de disponible le 26 juin ?
+- je veux un rendez vous pour le 3 octobre prochain
+- y'a-t-il de la place pour vendredi prochain avant 16h?
